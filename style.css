@@ -743,7 +743,8 @@ p {
 .main-dialog {
 }
 dialog {
-  margin-left: 35vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding: 1rem 3rem;
   background: white;
   align-self: center;
@@ -882,4 +883,11 @@ textarea {
 }
 [type="submit"]:hover {
   background: #cc4949;
+}
+
+@media (min-width: 768px) {
+  dialog {
+    margin-left: 35vw;
+    margin-right: 0vw;
+  }
 }
